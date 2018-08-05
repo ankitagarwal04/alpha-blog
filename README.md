@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# aplha-blog
+First Rails app for complete ruby on rails developer course
