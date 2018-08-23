@@ -40,6 +40,7 @@ class UsersController < ApplicationController
 
   def destroy
     @user.destroy
+    flash[:danger] = "User and all articles of this user have been deleted."
     redirect_to users_path
   end
 
